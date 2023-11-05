@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "83560674-983e-4f9d-926b-9dadd9473fcd"
+      }
+    },
+    "owner": "j-bones"
   }
 }
