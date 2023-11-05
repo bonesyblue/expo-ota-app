@@ -1,0 +1,26 @@
+{
+  "cli": {
+    "requireCommit": true,
+    "version": ">= 3.18.3"
+  },
+  "build": {
+    "development": {
+      "releaseChannel": "dev",
+      "distribution": "internal"
+    },
+    "preview": {
+      "releaseChannel": "preview",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      }
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
